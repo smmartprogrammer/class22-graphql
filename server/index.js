@@ -1,6 +1,6 @@
 let { ApolloServer } = require('apollo-server');
 let typeDefs = require('./Schema/schema');
-let resolvers = require('./Resolvers/index');
+let resolvers = require('./Resolvers');
 
 let apolloServer = new ApolloServer({ typeDefs, resolvers });
 

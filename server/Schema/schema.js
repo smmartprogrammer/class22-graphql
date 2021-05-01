@@ -15,6 +15,7 @@ const typeDefs = gql`
 	type Query {
 		getMessage: String
 		getName: String
+		getAllMessags: [messageType]
 	}
 `;
 
